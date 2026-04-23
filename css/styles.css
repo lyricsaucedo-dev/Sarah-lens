@@ -292,7 +292,7 @@ section.band { padding: 5rem 0; }
 
 /* Services */
 .collections { display: grid; gap: 1.5rem; }
-@media (min-width: 768px) { .collections { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px) { .collections { grid-template-columns: repeat(2, minmax(300px, 400px)); justify-content: center; } }
 .collection {
   border: 1px solid var(--border); background: var(--card);
   padding: 2rem; display: flex; flex-direction: column;
