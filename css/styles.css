@@ -274,13 +274,13 @@ section.band { padding: 5rem 0; }
 /* About */
 .about-grid { display: grid; gap: 3rem; align-items: flex-start; }
 @media (min-width: 1024px) { .about-grid { grid-template-columns: 5fr 7fr; gap: 5rem; } }
-.about-image { aspect-ratio: 4/5; overflow: hidden; background: #f9f7f2; display: flex; align-items: center; justify-content: center; }
+.about-image { aspect-ratio: 3/4; overflow: hidden; background: #f9f7f2; display: flex; align-items: center; justify-content: center; }
 .about-image img { width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); border: 1px solid rgba(0, 0, 0, 0.04); }
 .about-text h1 { font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1.5rem; line-height: 1.05; }
 .about-text .body p { margin-top: 1.25rem; color: rgba(42, 38, 31, 0.85); }
 
 .stats { display: grid; gap: 2.5rem; }
-@media (min-width: 768px) { .stats { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px) { .stats { grid-template-columns: repeat(2, 1fr); justify-content: center; } }
 .stat .num { font-family: var(--font-serif); font-size: 4rem; color: var(--accent); }
 .stat .lbl { margin-top: 0.5rem; }
 
